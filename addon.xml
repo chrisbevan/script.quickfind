@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.quickfind" name="Quick Find" version="0.0.1" provider-name="Chris Bevan">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="script.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Quick finder script</summary>
+		<description lang="en_GB">Finds stuff. Quickly.</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
